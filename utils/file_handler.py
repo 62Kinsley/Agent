@@ -41,5 +41,10 @@ def listdir_with_allowed_type(path:str, allowed_types: tuple[str]):
     return tuple(files)
 
 
+def pdf_loader(fileath: str, passwd=None) -> list[Document]:
+    return PyPDFLoader(fileath, passwd).load()
 
 
+
+def txt_loader()-> list[Document]:
+    return TextLoader(fileath, passwd).load()
