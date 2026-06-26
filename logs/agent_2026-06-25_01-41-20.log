@@ -1,5 +1,0 @@
-2026-06-25 01:41:20,275 - agent - DEBUG - logger_handler.py:55 - This is a debug message.
-2026-06-25 01:41:20,276 - agent - INFO - logger_handler.py:56 - This is an info message.
-2026-06-25 01:41:20,276 - agent - WARNING - logger_handler.py:57 - This is a warning message.
-2026-06-25 01:41:20,276 - agent - ERROR - logger_handler.py:58 - This is an error message.
-2026-06-25 01:41:20,276 - agent - CRITICAL - logger_handler.py:59 - This is a critical message.
