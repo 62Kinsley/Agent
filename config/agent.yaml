@@ -1,2 +1,2 @@
 chat_model_name: qwen-max
-embed_model_name: text-embeddings-v4
+embed_model_name: qwen2.5-vl-embedding

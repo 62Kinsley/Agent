@@ -1,5 +1,5 @@
-from config_handler import prompt_config
-from path_tool import get_abs_path
+from utils.config_handler import prompt_config
+from utils.path_tool import get_abs_path
 
 def load_system_prompt():
     #check if the prompt_config has the key 'main_prompt', and get the path of the system prompt file
