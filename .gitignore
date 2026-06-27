@@ -20,3 +20,4 @@ env/
 logs/
 
 rag.yaml.env
+.env

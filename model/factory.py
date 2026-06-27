@@ -19,6 +19,8 @@ class ChatModelFactory(BaseModelFactory):
     def generator(self) -> Optional[Embeddings | BaseChatModel]:
         return ChatQwen(
                     model=rag_config["chat_model_name"],
+                    api_key=os.getenv("DASHSCOPE_API_KEY"),
+                    base_url=rag_config["base_url"],
                     max_tokens=3_000,
                     timeout=None,
                     max_retries=2,

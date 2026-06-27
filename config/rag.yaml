@@ -2,4 +2,4 @@
 chat_model_name: qwen-max
 embedding_model_name: text-embedding-v4
 base_url: https://dashscope.aliyuncs.com/compatible-mode/v1
-api_key: sk-ws-H.REMXLHX.nivW.MEUCIQDTCKuksYgHNbHA6WreGNMNfi0Rk4_aOnWGb0CfJE9PqQIgWGSnESDyfoHqpuChrccXJZWGXcih9RXSHpC8JvSJydA
+api_key: sk-ws-H.RYPRMXM.epht.MEQCIHlnEdtImtTB4ewcrxx04ySokTdxWPB7qTvoxHw5G7W6AiBN4MUD1omqd42EEYlQSZHwVp4OCFMZfM9D6X4LFPqTpQ 

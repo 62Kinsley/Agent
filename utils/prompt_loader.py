@@ -1,5 +1,6 @@
 from utils.config_handler import prompt_config
 from utils.path_tool import get_abs_path
+from utils.logger_handler import logger
 
 def load_system_prompt():
     #check if the prompt_config has the key 'main_prompt', and get the path of the system prompt file
@@ -35,6 +36,7 @@ def load_rag_prompt():
             rag_prompt = f.read()
     except FileNotFoundError:
         logger.error(f"File not found: {rag_prompt_path}. Please check the file path.")
+        raise e   
     except Exception as e:
         logger.error(f"Error reading rag prompt: {e}")
         raise  e
